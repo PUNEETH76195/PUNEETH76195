@@ -1,0 +1,64 @@
+/* Custom styles for Task Management Application */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Task list styles */
+  #task-list {
+    padding: 0;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+  }
+  
+  /* Add Task form styles */
+  #task-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    background-color: #fff;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  /* View/Edit Task Modal styles */
+  #viewTaskModalLabel {
+    color: #fff;
+  }
+  
+  #task-details {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
